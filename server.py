@@ -1,15 +1,25 @@
 import socket
 
-addr = ("0.0.0.0", 35491)
+PORT = 35491
+
+addr = ("0.0.0.0", PORT)
 s = socket.create_server(addr, family=socket.AF_INET)
 
 s.listen()
-print("servidor funcionando")
+print("server is up")
+serverOn = s.accept()
+print("conection accepted", serverOn[1])
+
+c = 0
 while True:
-    serverOn = s.accept()
-    print("conexão aceita", serverOn[1])
-    msg = "Hello World"
+    c += 1
+
     clientMsg = serverOn[0].recv(1024)
-    print(f"Mensagem recebida: {clientMsg.decode()}")
+    print(f"Message received: {clientMsg.decode()}")
+
+    msg = "Message succesfully sent"
     serverOn[0].send(msg.encode())
-    serverOn[0].close()
+
+    if c == 5:
+        break
+        serverOn[0].close()
