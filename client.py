@@ -2,9 +2,26 @@ import socket
 import psutil
 import time
 import json
+import argparse
 
-IP = "192.168.18.4"
-PORT = 35491
+def get_args():
+    parser = argparse.ArgumentParser(
+        description="Use a server to monitor your client :)"
+    )
+
+    parser.add_argument(
+        "--ip",
+        required=True,
+        help="IP address from the server"
+    )
+
+    parser.add_argument(
+        "--port",
+        required=True,
+        help="Port from server"
+    )
+
+    return parser.parse_args()
 
 def metrics():
     return {
@@ -14,23 +31,29 @@ def metrics():
     }
 
 
-obj = socket.socket(family=socket.AF_INET)
+if __name__ == '__main__':
+    args = get_args()
+    IP = args.ip
+    PORT = args.port
+    PORT = int(PORT)
 
-obj.connect((IP, PORT))
-print("Connected to the server")
+    #Using IPv4
+    obj = socket.socket(family=socket.AF_INET)
+    obj.connect((IP, PORT))
+    print("Connected to the server")
 
-c = 0
-while True:
-    c += 1
-    data = metrics()
-    data = json.dumps(data).encode('utf-8')
-    obj.sendall(data)
+    while True:
+        try:
+            data = metrics()
+            data = json.dumps(data).encode('utf-8')
+            obj.sendall(data)
 
-    data = obj.recv(1024)
-    print(f"Server responded: {data.decode()}")
+            data = obj.recv(1024)
+            print(f"Server responded: {data.decode()}")
+            
+            time.sleep(2)
 
-    time.sleep(2)
-    if c == 5:
-        break
-        obj.close()
+        except Exception as e:
+            print(f"Client err: {e}")
+            break
 
