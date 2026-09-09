@@ -1,0 +1,126 @@
+2026-08-22 19:06:17,590 [INFO] Connection accepted from ('192.168.18.4', 35462)
+2026-08-22 19:06:18,592 [INFO] [('192.168.18.4', 35462)]      Metrics receveid: {"cpu": 3.0, "memory": 58.1, "disk": 50.4}
+2026-08-22 19:06:19,594 [INFO] [('192.168.18.4', 35462)]      Metrics receveid: {"cpu": 3.4, "memory": 58.1, "disk": 50.4}
+2026-08-22 19:06:20,596 [INFO] [('192.168.18.4', 35462)]      Metrics receveid: {"cpu": 7.0, "memory": 58.1, "disk": 50.4}
+2026-08-22 19:06:21,597 [INFO] [('192.168.18.4', 35462)]      Metrics receveid: {"cpu": 2.7, "memory": 58.1, "disk": 50.4}
+2026-08-22 19:06:22,598 [INFO] [('192.168.18.4', 35462)]      Metrics receveid: {"cpu": 5.2, "memory": 58.1, "disk": 50.4}
+2026-08-22 19:06:23,575 [WARNING] Connection closed with ('192.168.18.4', 35462). Waiting new connection
+2026-08-22 19:06:27,739 [INFO] Connection accepted from ('192.168.18.4', 46796)
+2026-08-22 19:06:28,741 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 5.2, "memory": 59.0, "disk": 50.4}
+2026-08-22 19:06:29,742 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 5.0, "memory": 59.0, "disk": 50.4}
+2026-08-22 19:06:30,743 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 3.7, "memory": 59.0, "disk": 50.4}
+2026-08-22 19:06:31,745 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 3.5, "memory": 58.9, "disk": 50.4}
+2026-08-22 19:06:32,747 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 5.4, "memory": 58.9, "disk": 50.4}
+2026-08-22 19:06:33,749 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 6.7, "memory": 58.8, "disk": 50.4}
+2026-08-22 19:06:34,751 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 3.4, "memory": 58.7, "disk": 50.4}
+2026-08-22 19:06:35,753 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 4.8, "memory": 58.7, "disk": 50.4}
+2026-08-22 19:06:36,754 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 7.9, "memory": 58.7, "disk": 50.4}
+2026-08-22 19:06:37,755 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 10.7, "memory": 58.4, "disk": 50.4}
+2026-08-22 19:06:38,757 [INFO] [('192.168.18.4', 46796)]      Metrics receveid: {"cpu": 3.7, "memory": 58.4, "disk": 50.4}
+2026-08-22 19:06:38,834 [WARNING] Connection closed with ('192.168.18.4', 46796). Waiting new connection
+2026-08-22 19:18:15,904 [INFO] Server is up adn listening
+2026-08-22 19:21:08,108 [INFO] Connection accepted from ('192.168.18.4', 60640)
+2026-08-22 19:21:09,109 [INFO] [('192.168.18.4', 60640)]      Metrics received: {"cpu": 3.5, "memory": 61.2, "disk": 50.4}
+2026-08-22 19:21:12,111 [INFO] [('192.168.18.4', 60640)]      Metrics received: {"cpu": 3.0, "memory": 60.9, "disk": 50.4}
+2026-08-22 19:21:15,113 [INFO] [('192.168.18.4', 60640)]      Metrics received: {"cpu": 2.3, "memory": 60.9, "disk": 50.4}
+2026-08-22 19:21:18,115 [INFO] [('192.168.18.4', 60640)]      Metrics received: {"cpu": 2.5, "memory": 60.7, "disk": 50.4}
+2026-08-22 19:21:20,206 [WARNING] Connection closed with ('192.168.18.4', 60640). Waiting new connection
+2026-08-22 19:21:24,241 [INFO] Connection accepted from ('192.168.18.4', 52202)
+2026-08-22 19:21:25,242 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 3.4, "memory": 61.0, "disk": 50.4}
+2026-08-22 19:21:28,243 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 4.2, "memory": 61.7, "disk": 50.4}
+2026-08-22 19:21:31,245 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 2.3, "memory": 61.5, "disk": 50.4}
+2026-08-22 19:21:34,247 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 6.0, "memory": 61.5, "disk": 50.4}
+2026-08-22 19:21:37,248 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 14.4, "memory": 61.3, "disk": 50.4}
+2026-08-22 19:21:40,250 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 3.2, "memory": 61.0, "disk": 50.4}
+2026-08-22 19:21:43,251 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 3.3, "memory": 61.0, "disk": 50.4}
+2026-08-22 19:21:46,253 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 3.0, "memory": 60.9, "disk": 50.4}
+2026-08-22 19:21:49,256 [INFO] [('192.168.18.4', 52202)]      Metrics received: {"cpu": 2.2, "memory": 60.9, "disk": 50.4}
+2026-08-22 19:21:50,166 [WARNING] Connection closed with ('192.168.18.4', 52202). Waiting new connection
+2026-08-24 07:53:39,376 [INFO] Server is up and listening
+2026-08-24 07:55:12,599 [INFO] Server is up and listening
+2026-08-24 07:56:15,467 [INFO] Server is up and listening
+2026-08-24 08:05:49,923 [INFO] Server is up and listening
+2026-08-24 08:06:02,520 [INFO] Connection accepted from ('192.168.18.4', 44836)
+2026-08-24 08:06:03,521 [INFO] [('192.168.18.4', 44836)]      Metrics received: {"cpu": 7.7, "memory": 89.4, "disk": 46.4}
+2026-08-24 08:06:06,523 [INFO] [('192.168.18.4', 44836)]      Metrics received: {"cpu": 8.2, "memory": 89.4, "disk": 46.4}
+2026-08-24 08:06:07,984 [WARNING] Connection closed with ('192.168.18.4', 44836). Waiting for a new connection
+2026-08-24 08:13:37,409 [INFO] Server is up and listening
+2026-08-24 08:14:50,200 [INFO] Connection accepted from ('192.168.18.45', 36162)
+2026-08-24 08:14:51,202 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.1, "memory": 42.7, "disk": 20.8}
+2026-08-24 08:14:54,204 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.0, "memory": 42.6, "disk": 20.8}
+2026-08-24 08:14:57,205 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 4.1, "memory": 42.6, "disk": 20.8}
+2026-08-24 08:15:00,207 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 0.5, "memory": 42.6, "disk": 20.8}
+2026-08-24 08:15:03,207 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 4.6, "memory": 42.6, "disk": 20.8}
+2026-08-24 08:15:06,208 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 0.5, "memory": 42.6, "disk": 20.8}
+2026-08-24 08:15:09,209 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.0, "memory": 42.6, "disk": 20.8}
+2026-08-24 08:15:12,210 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.6, "disk": 20.8}
+2026-08-24 08:15:15,210 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.5, "disk": 20.8}
+2026-08-24 08:15:18,211 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.0, "memory": 42.5, "disk": 20.8}
+2026-08-24 08:15:21,211 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.5, "disk": 20.8}
+2026-08-24 08:15:24,211 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.5, "disk": 20.8}
+2026-08-24 08:15:27,212 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.5, "disk": 20.8}
+2026-08-24 08:15:30,214 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.5, "disk": 20.8}
+2026-08-24 08:15:33,215 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.0, "memory": 42.5, "disk": 20.8}
+2026-08-24 08:15:36,216 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.5, "memory": 42.4, "disk": 20.8}
+2026-08-24 08:15:39,217 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.4, "disk": 20.8}
+2026-08-24 08:15:42,217 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 0.5, "memory": 42.4, "disk": 20.8}
+2026-08-24 08:15:45,218 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.0, "memory": 42.4, "disk": 20.8}
+2026-08-24 08:15:48,217 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.4, "disk": 20.8}
+2026-08-24 08:15:51,217 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:15:54,218 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.0, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:15:57,219 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:00,221 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.1, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:03,222 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.1, "memory": 42.1, "disk": 20.8}
+2026-08-24 08:16:06,224 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.0, "memory": 42.1, "disk": 20.8}
+2026-08-24 08:16:09,225 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.0, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:12,227 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.6, "memory": 42.1, "disk": 20.8}
+2026-08-24 08:16:15,228 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.1, "disk": 20.8}
+2026-08-24 08:16:18,230 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.1, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:21,231 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.1, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:24,233 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:27,234 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 4.1, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:30,236 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.1, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:33,237 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:36,238 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.1, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:39,239 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.0, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:16:42,241 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.1, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:16:45,243 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.0, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:16:48,244 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.0, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:16:51,244 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.0, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:16:54,245 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.1, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:16:57,246 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:00,248 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:03,248 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 4.1, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:17:06,249 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 4.1, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:17:09,253 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:17:12,257 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:17:15,262 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:18,266 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:21,268 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.1, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:24,272 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:27,276 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.1, "memory": 42.1, "disk": 20.8}
+2026-08-24 08:17:30,285 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.5, "memory": 42.1, "disk": 20.8}
+2026-08-24 08:17:33,286 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 0.5, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:36,291 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.6, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:39,294 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 7.3, "memory": 42.2, "disk": 20.8}
+2026-08-24 08:17:42,295 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 42.3, "disk": 20.8}
+2026-08-24 08:17:45,297 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 50.3, "memory": 43.8, "disk": 20.8}
+2026-08-24 08:17:48,299 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 2.6, "memory": 44.2, "disk": 20.8}
+2026-08-24 08:17:51,301 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 7.2, "memory": 44.4, "disk": 20.8}
+2026-08-24 08:17:54,303 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 1.5, "memory": 44.0, "disk": 20.8}
+2026-08-24 08:17:57,304 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 3.0, "memory": 44.0, "disk": 20.8}
+2026-08-24 08:18:00,305 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 8.2, "memory": 44.2, "disk": 20.8}
+2026-08-24 08:18:03,308 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 16.1, "memory": 44.4, "disk": 20.8}
+2026-08-24 08:18:06,310 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 8.2, "memory": 44.4, "disk": 20.8}
+2026-08-24 08:18:09,312 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 4.1, "memory": 44.2, "disk": 20.8}
+2026-08-24 08:18:12,315 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 9.6, "memory": 44.2, "disk": 20.8}
+2026-08-24 08:18:15,318 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 7.7, "memory": 44.3, "disk": 20.8}
+2026-08-24 08:18:18,320 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 11.4, "memory": 44.3, "disk": 20.8}
+2026-08-24 08:18:21,323 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 15.5, "memory": 44.3, "disk": 20.8}
+2026-08-24 08:18:24,325 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 6.5, "memory": 44.3, "disk": 20.8}
+2026-08-24 08:18:27,327 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 5.6, "memory": 44.3, "disk": 20.8}
+2026-08-24 08:18:30,329 [INFO] [('192.168.18.45', 36162)]      Metrics received: {"cpu": 4.6, "memory": 44.3, "disk": 20.8}
+2026-08-24 08:18:32,579 [WARNING] Connection closed with ('192.168.18.45', 36162). Waiting for a new connection
+2026-08-24 08:18:36,272 [INFO] Connection accepted from ('192.168.18.45', 36010)
+2026-08-24 08:18:37,273 [INFO] [('192.168.18.45', 36010)]      Metrics received: {"cpu": 4.6, "memory": 44.2, "disk": 20.8}
+2026-08-24 08:18:38,988 [WARNING] Connection closed with ('192.168.18.45', 36010). Waiting for a new connection

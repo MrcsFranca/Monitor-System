@@ -1,0 +1,15 @@
+o gRPC lida com threads nativamente, então n precisa implementar
+
+No gRPC tem a abstração da camada de rede
+
+JSON possui overhead textual, o gRPC transmite usando protocol buffer -> formato binário e compacto
+
+Usa HTTP/2
+
+o arquivo monitor_pb2 traduz os blocos de message em objetos e classes do python -> contém os serializadores e deserializadores (parte do skeleton)
+
+o arquvo monitor_pb2_grpc faz o transporte de rede definido. Ele gera 2 classes principais, sendo uma delas o stub que é usado pelo cliente para disparar chamadas para o servidor como se estivesse executando funções locais e Servicer que é uma classe que você estende no servidor para programar o comportamento de cada função (stub)
+
+O stub e o skeleton estão no monitor_pb2_grpc, o skeleton é chamado de Servicer e o stub é <sufixo>stub. O skeleton escuta a rede, recebe os dados e desempacota e direciona para a função correta
+
+Oq acontece é a separação da infraestrutura de dados da infraestrutura de rede
