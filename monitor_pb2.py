@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rmonitor.proto\x12\x07monitor\"M\n\rMetricRequest\x12\x11\n\tclient_id\x18\x01 \x01(\t\x12\x0b\n\x03\x63pu\x18\x02 \x01(\x02\x12\x0e\n\x06memory\x18\x03 \x01(\x02\x12\x0c\n\x04\x64isk\x18\x04 \x01(\x02\"!\n\x0eMetricResponse\x12\x0f\n\x07message\x18\x01 \x01(\t2S\n\rMetricService\x12\x42\n\rStreamMetrics\x12\x16.monitor.MetricRequest\x1a\x17.monitor.MetricResponse(\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rmonitor.proto\x12\x07monitor\"M\n\rMetricRequest\x12\x11\n\tclient_id\x18\x01 \x01(\t\x12\x0b\n\x03\x63pu\x18\x02 \x01(\x02\x12\x0e\n\x06memory\x18\x03 \x01(\x02\x12\x0c\n\x04\x64isk\x18\x04 \x01(\x02\"!\n\x0eMetricResponse\x12\x0f\n\x07message\x18\x01 \x01(\t2U\n\rMetricService\x12\x44\n\rStreamMetrics\x12\x16.monitor.MetricRequest\x1a\x17.monitor.MetricResponse(\x01\x30\x01\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -36,5 +36,5 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_METRICRESPONSE']._serialized_start=105
   _globals['_METRICRESPONSE']._serialized_end=138
   _globals['_METRICSERVICE']._serialized_start=140
-  _globals['_METRICSERVICE']._serialized_end=223
+  _globals['_METRICSERVICE']._serialized_end=225
 # @@protoc_insertion_point(module_scope)

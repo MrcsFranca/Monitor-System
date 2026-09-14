@@ -1,6 +1,10 @@
 import socket
 import logging
 import threading
+from concurrent import futures
+import grpc
+import monitor_pb2
+import monitor_pb2_grpc
 
 PORT = 35491
 
@@ -13,51 +17,41 @@ logging.basicConfig(
     ]
 )
 
-def client(client_socket, client_address):
-    logging.info(f"Connection accepted from {client_address}")
-    while True:
+class MetricServiceServicer(monitor_pb2_grpc.MetricServiceServicer):
+    # preciso passar um iterador pq a classe foi criada com o stream
+    def StreamMetrics(self, request_iterator, context):
+        client_address = context.peer()
+        logging.info(f"Connection accepted from gRPC client: {client_address}")
+
         try:
-            # recv is blocking and it defines the max size of the buffer
-            clientMsg = client_socket.recv(1024)
-            if not clientMsg:
-                break
-            
-            logging.info(f"[{client_address}]      Metrics received: {clientMsg.decode()}")
+            for request in request_iterator:
+                logging.info(
+                    f"[{request.client_id}] Metrics received -> "
+                    f"CPU: {request.cpu:.1f}%, "
+                    f"Memory: {request.memory:.1f}%, "
+                    f"Disk: {request.disk:.1f}%"
+                )
 
-            msg = "Metrics successfully processed"
-            client_socket.send(msg.encode())
+                yield monitor_pb2.MetricResponse(message="All metrics successfully processed via gRPC stream")
+
         except Exception as e:
-            logging.error(f"Failed to communicate with {client_address}: {e}")
-            break
-    client_socket.close()
-    logging.warning(f"Connection closed wih {client_address}")
+            logging.error(f"Failed to communicate with client {client_address}: {e}")
+            context.set_details(str(e))
+            context.set_code(grpc.StatusCode.INTERNAL)
+            return monitor_pb2.MetricResponse()
 
+def serve():
+    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
+    monitor_pb2_grpc.add_MetricServiceServicer_to_server(MetricServiceServicer(), server)
+    # adiciona a porta como sendo passíel de escuta
+    server.add_insecure_port(f"0.0.0.0:{PORT}")
+
+    logging.info(f"gRPC server is up and listening on port {PORT}")
+    # inicia o servidor gRPC
+    server.start()
+
+    # mantem o processo do servidor rodando enquanto ele não é explicitamente terminado
+    server.wait_for_termination()
 
 if __name__ == '__main__':
-    addr = ("0.0.0.0", PORT)
-# Using IPv4 and the TCP as standard 
-    s = socket.create_server(addr, family=socket.AF_INET)
-    s.listen()
-    logging.info("Server is up and listening")
-
-    while True:
-        try:
-            # accept is blocking
-            client_socket, client_address = s.accept()
-
-            client_thread = threading.Thread(
-                target = client,
-                args = (client_socket, client_address),
-                name = f"Client-{client_address[1]}"
-            )
-
-            client_thread.darmon = True
-
-            client_thread.start()
-
-        except Exception as e:
-            logging.error(f"Server err: {e}")
-            break
-
-    s.close()
-
+    serve()

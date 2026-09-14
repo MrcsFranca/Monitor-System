@@ -124,3 +124,68 @@
 2026-08-24 08:18:36,272 [INFO] Connection accepted from ('192.168.18.45', 36010)
 2026-08-24 08:18:37,273 [INFO] [('192.168.18.45', 36010)]      Metrics received: {"cpu": 4.6, "memory": 44.2, "disk": 20.8}
 2026-08-24 08:18:38,988 [WARNING] Connection closed with ('192.168.18.45', 36010). Waiting for a new connection
+2026-09-13 20:58:14,763 [INFO] gRPC server is up and listening on port 35491
+2026-09-13 21:00:22,065 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:36324
+2026-09-13 21:00:23,054 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 60.5%, Disk: 59.4%
+2026-09-13 21:00:25,056 [INFO] [catacombs] Metrics received -> CPU: 6.7%, Memory: 60.5%, Disk: 59.4%
+2026-09-13 21:00:27,058 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 60.5%, Disk: 59.4%
+2026-09-13 21:00:29,059 [INFO] [catacombs] Metrics received -> CPU: 6.6%, Memory: 60.5%, Disk: 59.4%
+2026-09-13 21:00:31,061 [INFO] [catacombs] Metrics received -> CPU: 4.4%, Memory: 60.7%, Disk: 59.4%
+2026-09-13 21:00:33,063 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 60.7%, Disk: 59.4%
+2026-09-13 21:00:35,064 [INFO] [catacombs] Metrics received -> CPU: 5.4%, Memory: 60.7%, Disk: 59.4%
+2026-09-13 21:00:37,066 [INFO] [catacombs] Metrics received -> CPU: 16.8%, Memory: 61.4%, Disk: 59.4%
+2026-09-13 21:00:39,068 [INFO] [catacombs] Metrics received -> CPU: 7.7%, Memory: 61.7%, Disk: 59.4%
+2026-09-13 21:00:41,069 [INFO] [catacombs] Metrics received -> CPU: 10.6%, Memory: 61.4%, Disk: 59.4%
+2026-09-13 21:00:43,071 [INFO] [catacombs] Metrics received -> CPU: 3.9%, Memory: 61.3%, Disk: 59.4%
+2026-09-13 21:00:45,073 [INFO] [catacombs] Metrics received -> CPU: 12.1%, Memory: 61.2%, Disk: 59.4%
+2026-09-13 21:00:45,710 [ERROR] Failed to communicate with client ipv4:192.168.18.4:36324: 
+2026-09-13 21:51:50,931 [INFO] gRPC server is up and listening on port 35491
+2026-09-13 21:51:52,620 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:58410
+2026-09-13 21:51:53,621 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 61.2%, Disk: 59.4%
+2026-09-13 21:51:55,623 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 61.2%, Disk: 59.4%
+2026-09-13 21:51:57,023 [ERROR] Failed to communicate with client ipv4:192.168.18.4:58410: 
+2026-09-14 10:24:34,965 [INFO] gRPC server is up and listening on port 35491
+2026-09-14 10:24:52,909 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:37894
+2026-09-14 10:24:53,910 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 57.6%, Disk: 59.4%
+2026-09-14 10:24:55,912 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 57.6%, Disk: 59.4%
+2026-09-14 10:24:57,914 [INFO] [catacombs] Metrics received -> CPU: 3.9%, Memory: 57.6%, Disk: 59.4%
+2026-09-14 10:24:59,916 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 57.5%, Disk: 59.4%
+2026-09-14 10:25:01,917 [INFO] [catacombs] Metrics received -> CPU: 12.2%, Memory: 58.5%, Disk: 59.4%
+2026-09-14 10:25:03,919 [INFO] [catacombs] Metrics received -> CPU: 3.9%, Memory: 58.5%, Disk: 59.4%
+2026-09-14 10:25:05,919 [INFO] [catacombs] Metrics received -> CPU: 5.9%, Memory: 58.4%, Disk: 59.4%
+2026-09-14 10:25:07,921 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 58.3%, Disk: 59.4%
+2026-09-14 10:25:09,923 [INFO] [catacombs] Metrics received -> CPU: 5.9%, Memory: 58.0%, Disk: 59.4%
+2026-09-14 10:25:11,924 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 58.0%, Disk: 59.4%
+2026-09-14 10:25:13,926 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 57.9%, Disk: 59.4%
+2026-09-14 10:25:15,928 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 57.9%, Disk: 59.4%
+2026-09-14 10:25:17,930 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 57.9%, Disk: 59.4%
+2026-09-14 10:25:19,932 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 57.9%, Disk: 59.4%
+2026-09-14 10:25:21,934 [INFO] [catacombs] Metrics received -> CPU: 2.2%, Memory: 57.9%, Disk: 59.4%
+2026-09-14 10:25:23,936 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 57.8%, Disk: 59.4%
+2026-09-14 10:25:25,937 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 57.8%, Disk: 59.4%
+2026-09-14 10:25:27,939 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 57.8%, Disk: 59.4%
+2026-09-14 10:25:29,504 [ERROR] Failed to communicate with client ipv4:192.168.18.4:37894: 
+2026-09-14 10:25:32,276 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:45516
+2026-09-14 10:25:33,277 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 57.7%, Disk: 59.4%
+2026-09-14 10:25:35,279 [INFO] [catacombs] Metrics received -> CPU: 3.9%, Memory: 57.8%, Disk: 59.4%
+2026-09-14 10:25:37,281 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 58.6%, Disk: 59.4%
+2026-09-14 10:25:39,283 [INFO] [catacombs] Metrics received -> CPU: 9.2%, Memory: 58.7%, Disk: 59.4%
+2026-09-14 10:25:41,285 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 58.8%, Disk: 59.4%
+2026-09-14 10:25:43,287 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 58.8%, Disk: 59.4%
+2026-09-14 10:25:45,288 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 58.6%, Disk: 59.4%
+2026-09-14 10:25:47,290 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 58.5%, Disk: 59.4%
+2026-09-14 10:25:49,292 [INFO] [catacombs] Metrics received -> CPU: 9.0%, Memory: 57.4%, Disk: 59.4%
+2026-09-14 10:25:51,294 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 57.4%, Disk: 59.4%
+2026-09-14 10:25:51,532 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:55254
+2026-09-14 10:25:52,533 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 57.6%, Disk: 59.4%
+2026-09-14 10:25:53,295 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 57.6%, Disk: 59.4%
+2026-09-14 10:25:54,534 [INFO] [catacombs] Metrics received -> CPU: 7.4%, Memory: 57.7%, Disk: 59.4%
+2026-09-14 10:25:55,297 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 57.7%, Disk: 59.4%
+2026-09-14 10:25:56,536 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 57.7%, Disk: 59.4%
+2026-09-14 10:25:57,061 [ERROR] Failed to communicate with client ipv4:192.168.18.4:55254: 
+2026-09-14 10:25:57,299 [INFO] [catacombs] Metrics received -> CPU: 5.7%, Memory: 57.5%, Disk: 59.4%
+2026-09-14 10:25:59,300 [INFO] [catacombs] Metrics received -> CPU: 3.8%, Memory: 57.4%, Disk: 59.4%
+2026-09-14 10:26:01,301 [INFO] [catacombs] Metrics received -> CPU: 17.1%, Memory: 58.3%, Disk: 59.4%
+2026-09-14 10:26:03,302 [INFO] [catacombs] Metrics received -> CPU: 9.6%, Memory: 58.9%, Disk: 59.4%
+2026-09-14 10:26:05,304 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 59.0%, Disk: 59.4%
+2026-09-14 10:26:06,816 [ERROR] Failed to communicate with client ipv4:192.168.18.4:45516: 

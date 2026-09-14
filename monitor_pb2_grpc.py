@@ -34,7 +34,7 @@ class MetricServiceStub(object):
         Args:
             channel: A grpc.Channel.
         """
-        self.StreamMetrics = channel.stream_unary(
+        self.StreamMetrics = channel.stream_stream(
                 '/monitor.MetricService/StreamMetrics',
                 request_serializer=monitor__pb2.MetricRequest.SerializeToString,
                 response_deserializer=monitor__pb2.MetricResponse.FromString,
@@ -53,7 +53,7 @@ class MetricServiceServicer(object):
 
 def add_MetricServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
-            'StreamMetrics': grpc.stream_unary_rpc_method_handler(
+            'StreamMetrics': grpc.stream_stream_rpc_method_handler(
                     servicer.StreamMetrics,
                     request_deserializer=monitor__pb2.MetricRequest.FromString,
                     response_serializer=monitor__pb2.MetricResponse.SerializeToString,
@@ -80,7 +80,7 @@ class MetricService(object):
             wait_for_ready=None,
             timeout=None,
             metadata=None):
-        return grpc.experimental.stream_unary(
+        return grpc.experimental.stream_stream(
             request_iterator,
             target,
             '/monitor.MetricService/StreamMetrics',

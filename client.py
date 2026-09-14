@@ -1,8 +1,11 @@
-import socket
+import socket # to usando so para pegar o nome da máquina 
 import psutil
 import time
 import json
 import argparse
+import grpc
+import monitor_pb2
+import monitor_pb2_grpc
 
 def get_args():
     parser = argparse.ArgumentParser(
@@ -23,37 +26,36 @@ def get_args():
 
     return parser.parse_args()
 
-def metrics():
-    return {
-        "cpu": psutil.cpu_percent(interval=1, percpu=False),
-        "memory": psutil.virtual_memory().percent,
-        "disk": psutil.disk_usage('/').percent
-    }
+def generate_metrics(client_id):
+    while True:
+        cpu = psutil.cpu_percent(interval=1, percpu=False)
+        memory = psutil.virtual_memory().percent
+        disk = psutil.disk_usage('/').percent
 
+        request = monitor_pb2.MetricRequest(client_id=client_id, cpu=cpu, memory=memory, disk=disk)
+
+        yield request
+
+        time.sleep(1)
 
 if __name__ == '__main__':
     args = get_args()
     IP = args.ip
     PORT = args.port
-    PORT = int(PORT)
+    CLIENT_ID = socket.gethostname()
 
-    #Using IPv4
-    obj = socket.socket(family=socket.AF_INET)
-    obj.connect((IP, PORT))
-    print("Connected to the server")
+    print(f"Connecting to gRPC server at {IP}:{PORT}...")
 
-    while True:
+    with grpc.insecure_channel(f"{IP}:{PORT}") as channel:
+        stub = monitor_pb2_grpc.MetricServiceStub(channel)
+
         try:
-            data = metrics()
-            data = json.dumps(data).encode('utf-8')
-            obj.sendall(data)
-
-            data = obj.recv(1024)
-            print(f"Server responded: {data.decode()}")
-            
-            time.sleep(2)
-
+            responses = stub.StreamMetrics(generate_metrics(CLIENT_ID))
+            # como a resposta é um fluxo stream, preciso colocar em um loop
+            for response in responses:
+                print(f"Server: {response.message}")
+        except grpc.RpcError as e:
+            print(f"gRPC error encountered: {e.details()} (Code: {e.code()})")
         except Exception as e:
             print(f"Client err: {e}")
-            break
 
