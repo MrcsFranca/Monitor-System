@@ -47,6 +47,7 @@ if __name__ == '__main__':
     print(f"Connecting to gRPC server at {IP}:{PORT}...")
 
     with grpc.insecure_channel(f"{IP}:{PORT}") as channel:
+        # o insecure_channel estabelece uma comunicação de longa duração
         stub = monitor_pb2_grpc.MetricServiceStub(channel)
 
         try:

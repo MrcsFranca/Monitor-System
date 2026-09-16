@@ -39,6 +39,11 @@ class MetricServiceStub(object):
                 request_serializer=monitor__pb2.MetricRequest.SerializeToString,
                 response_deserializer=monitor__pb2.MetricResponse.FromString,
                 _registered_method=True)
+        self.WatchAllDevices = channel.unary_stream(
+                '/monitor.MetricService/WatchAllDevices',
+                request_serializer=monitor__pb2.AdminRequest.SerializeToString,
+                response_deserializer=monitor__pb2.SystemStatusResponse.FromString,
+                _registered_method=True)
 
 
 class MetricServiceServicer(object):
@@ -50,6 +55,13 @@ class MetricServiceServicer(object):
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
+    def WatchAllDevices(self, request, context):
+        """para implementar o admin
+        """
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
 
 def add_MetricServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
@@ -57,6 +69,11 @@ def add_MetricServiceServicer_to_server(servicer, server):
                     servicer.StreamMetrics,
                     request_deserializer=monitor__pb2.MetricRequest.FromString,
                     response_serializer=monitor__pb2.MetricResponse.SerializeToString,
+            ),
+            'WatchAllDevices': grpc.unary_stream_rpc_method_handler(
+                    servicer.WatchAllDevices,
+                    request_deserializer=monitor__pb2.AdminRequest.FromString,
+                    response_serializer=monitor__pb2.SystemStatusResponse.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -86,6 +103,33 @@ class MetricService(object):
             '/monitor.MetricService/StreamMetrics',
             monitor__pb2.MetricRequest.SerializeToString,
             monitor__pb2.MetricResponse.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def WatchAllDevices(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_stream(
+            request,
+            target,
+            '/monitor.MetricService/WatchAllDevices',
+            monitor__pb2.AdminRequest.SerializeToString,
+            monitor__pb2.SystemStatusResponse.FromString,
             options,
             channel_credentials,
             insecure,

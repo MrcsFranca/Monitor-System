@@ -189,3 +189,644 @@
 2026-09-14 10:26:03,302 [INFO] [catacombs] Metrics received -> CPU: 9.6%, Memory: 58.9%, Disk: 59.4%
 2026-09-14 10:26:05,304 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 59.0%, Disk: 59.4%
 2026-09-14 10:26:06,816 [ERROR] Failed to communicate with client ipv4:192.168.18.4:45516: 
+2026-09-15 19:50:44,034 [INFO] gRPC server is up and listening on port 35491
+2026-09-15 19:50:48,184 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:35922
+2026-09-15 19:50:49,172 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 66.0%, Disk: 59.6%
+2026-09-15 19:50:49,172 [ERROR] Failed to communicate with client ipv4:192.168.18.4:35922: name 'datetime' is not defined
+2026-09-15 19:50:49,172 [ERROR] Exception iterating responses: 'MetricResponse' object is not an iterator
+Traceback (most recent call last):
+  File "/nix/store/bmnx9qxh4301jgybasc83xflnnm312d2-python3-3.13.12-env/lib/python3.13/site-packages/grpc/_server.py", line 652, in _take_response_from_response_iterator
+    return next(response_iterator), True
+           ~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'MetricResponse' object is not an iterator
+2026-09-15 19:52:54,398 [INFO] gRPC server is up and listening on port 35491
+2026-09-15 19:52:56,946 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:50438
+2026-09-15 19:52:57,947 [INFO] [catacombs] Metrics received -> CPU: 3.8%, Memory: 67.2%, Disk: 59.6%
+2026-09-15 19:52:59,949 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 67.1%, Disk: 59.6%
+2026-09-15 19:53:01,951 [INFO] [catacombs] Metrics received -> CPU: 9.1%, Memory: 67.1%, Disk: 59.6%
+2026-09-15 19:53:03,953 [INFO] [catacombs] Metrics received -> CPU: 4.4%, Memory: 67.0%, Disk: 59.6%
+2026-09-15 19:53:05,954 [INFO] [catacombs] Metrics received -> CPU: 7.5%, Memory: 66.9%, Disk: 59.6%
+2026-09-15 19:53:07,955 [INFO] [catacombs] Metrics received -> CPU: 7.4%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:53:09,957 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 66.4%, Disk: 59.6%
+2026-09-15 19:53:11,959 [INFO] [catacombs] Metrics received -> CPU: 9.7%, Memory: 66.4%, Disk: 59.6%
+2026-09-15 19:53:13,960 [INFO] [catacombs] Metrics received -> CPU: 3.9%, Memory: 66.3%, Disk: 59.6%
+2026-09-15 19:53:15,962 [INFO] [catacombs] Metrics received -> CPU: 7.0%, Memory: 66.2%, Disk: 59.6%
+2026-09-15 19:53:17,964 [INFO] [catacombs] Metrics received -> CPU: 5.4%, Memory: 66.3%, Disk: 59.6%
+2026-09-15 19:53:19,966 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 66.3%, Disk: 59.6%
+2026-09-15 19:53:21,968 [INFO] [catacombs] Metrics received -> CPU: 5.4%, Memory: 66.2%, Disk: 59.6%
+2026-09-15 19:53:23,970 [INFO] [catacombs] Metrics received -> CPU: 6.2%, Memory: 66.2%, Disk: 59.6%
+2026-09-15 19:53:25,971 [INFO] [catacombs] Metrics received -> CPU: 13.6%, Memory: 67.1%, Disk: 59.6%
+2026-09-15 19:53:27,973 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 67.1%, Disk: 59.6%
+2026-09-15 19:53:29,975 [INFO] [catacombs] Metrics received -> CPU: 7.6%, Memory: 67.1%, Disk: 59.6%
+2026-09-15 19:53:31,977 [INFO] [catacombs] Metrics received -> CPU: 11.6%, Memory: 67.2%, Disk: 59.6%
+2026-09-15 19:53:33,978 [INFO] [catacombs] Metrics received -> CPU: 8.2%, Memory: 66.7%, Disk: 59.6%
+2026-09-15 19:53:35,980 [INFO] [catacombs] Metrics received -> CPU: 6.7%, Memory: 66.7%, Disk: 59.6%
+2026-09-15 19:53:37,982 [INFO] [catacombs] Metrics received -> CPU: 4.9%, Memory: 66.7%, Disk: 59.6%
+2026-09-15 19:53:39,984 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 66.6%, Disk: 59.6%
+2026-09-15 19:53:41,986 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 66.7%, Disk: 59.6%
+2026-09-15 19:53:43,988 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:53:45,989 [INFO] [catacombs] Metrics received -> CPU: 6.1%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:53:47,991 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:53:49,993 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:53:51,747 [INFO] New Admin dashboard connected from: ipv6:%5B::1%5D:50028
+2026-09-15 19:53:51,995 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 66.4%, Disk: 59.6%
+2026-09-15 19:53:52,747 [INFO] Admin dashboard disconnected: ipv6:%5B::1%5D:50028
+2026-09-15 19:53:53,997 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 66.4%, Disk: 59.6%
+2026-09-15 19:53:55,998 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:53:58,000 [INFO] [catacombs] Metrics received -> CPU: 6.1%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:54:00,002 [INFO] [catacombs] Metrics received -> CPU: 7.9%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:54:02,003 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 66.7%, Disk: 59.6%
+2026-09-15 19:54:04,004 [INFO] [catacombs] Metrics received -> CPU: 10.1%, Memory: 66.8%, Disk: 59.6%
+2026-09-15 19:54:06,006 [INFO] [catacombs] Metrics received -> CPU: 6.9%, Memory: 66.7%, Disk: 59.6%
+2026-09-15 19:54:08,007 [INFO] [catacombs] Metrics received -> CPU: 9.2%, Memory: 66.6%, Disk: 59.6%
+2026-09-15 19:54:10,009 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 66.4%, Disk: 59.6%
+2026-09-15 19:54:12,010 [INFO] [catacombs] Metrics received -> CPU: 9.7%, Memory: 66.3%, Disk: 59.6%
+2026-09-15 19:54:14,011 [INFO] [catacombs] Metrics received -> CPU: 3.4%, Memory: 66.3%, Disk: 59.6%
+2026-09-15 19:54:16,013 [INFO] [catacombs] Metrics received -> CPU: 14.4%, Memory: 66.4%, Disk: 59.6%
+2026-09-15 19:54:18,015 [INFO] [catacombs] Metrics received -> CPU: 5.4%, Memory: 66.4%, Disk: 59.6%
+2026-09-15 19:54:20,016 [INFO] [catacombs] Metrics received -> CPU: 12.3%, Memory: 66.3%, Disk: 59.6%
+2026-09-15 19:54:22,018 [INFO] [catacombs] Metrics received -> CPU: 10.4%, Memory: 66.4%, Disk: 59.6%
+2026-09-15 19:54:24,020 [INFO] [catacombs] Metrics received -> CPU: 6.0%, Memory: 66.5%, Disk: 59.6%
+2026-09-15 19:54:26,021 [INFO] [catacombs] Metrics received -> CPU: 20.2%, Memory: 67.2%, Disk: 59.6%
+2026-09-15 19:54:26,316 [INFO] New Admin dashboard connected from: ipv6:%5B::1%5D:48266
+2026-09-15 19:54:28,022 [INFO] [catacombs] Metrics received -> CPU: 14.4%, Memory: 67.3%, Disk: 59.6%
+2026-09-15 19:54:30,024 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 67.3%, Disk: 59.6%
+2026-09-15 19:54:32,025 [INFO] [catacombs] Metrics received -> CPU: 9.9%, Memory: 67.2%, Disk: 59.6%
+2026-09-15 19:54:34,027 [INFO] [catacombs] Metrics received -> CPU: 8.9%, Memory: 67.3%, Disk: 59.6%
+2026-09-15 19:54:36,029 [INFO] [catacombs] Metrics received -> CPU: 6.4%, Memory: 67.3%, Disk: 59.6%
+2026-09-15 19:54:38,031 [INFO] [catacombs] Metrics received -> CPU: 6.2%, Memory: 67.0%, Disk: 59.6%
+2026-09-15 19:54:40,033 [INFO] [catacombs] Metrics received -> CPU: 7.7%, Memory: 67.0%, Disk: 59.6%
+2026-09-15 19:54:42,034 [INFO] [catacombs] Metrics received -> CPU: 8.7%, Memory: 66.9%, Disk: 59.6%
+2026-09-15 19:54:44,035 [INFO] [catacombs] Metrics received -> CPU: 6.9%, Memory: 67.0%, Disk: 59.6%
+2026-09-15 19:54:46,037 [INFO] [catacombs] Metrics received -> CPU: 14.2%, Memory: 67.4%, Disk: 59.6%
+2026-09-15 19:54:48,039 [INFO] [catacombs] Metrics received -> CPU: 6.4%, Memory: 67.4%, Disk: 59.6%
+2026-09-15 19:54:50,040 [INFO] [catacombs] Metrics received -> CPU: 10.3%, Memory: 67.5%, Disk: 59.6%
+2026-09-15 19:54:52,042 [INFO] [catacombs] Metrics received -> CPU: 7.7%, Memory: 67.6%, Disk: 59.6%
+2026-09-15 19:54:54,043 [INFO] [catacombs] Metrics received -> CPU: 8.7%, Memory: 67.6%, Disk: 59.6%
+2026-09-15 19:54:56,044 [INFO] [catacombs] Metrics received -> CPU: 4.4%, Memory: 67.7%, Disk: 59.6%
+2026-09-15 19:54:58,045 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 67.8%, Disk: 59.6%
+2026-09-15 19:55:00,047 [INFO] [catacombs] Metrics received -> CPU: 6.7%, Memory: 67.8%, Disk: 59.6%
+2026-09-15 19:55:02,049 [INFO] [catacombs] Metrics received -> CPU: 6.9%, Memory: 67.9%, Disk: 59.6%
+2026-09-15 19:55:04,049 [INFO] [catacombs] Metrics received -> CPU: 9.4%, Memory: 67.9%, Disk: 59.6%
+2026-09-15 19:55:06,050 [INFO] [catacombs] Metrics received -> CPU: 16.1%, Memory: 68.7%, Disk: 59.6%
+2026-09-15 19:55:08,051 [INFO] [catacombs] Metrics received -> CPU: 19.2%, Memory: 67.7%, Disk: 59.6%
+2026-09-15 19:55:10,053 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 67.6%, Disk: 59.6%
+2026-09-15 19:55:12,055 [INFO] [catacombs] Metrics received -> CPU: 9.6%, Memory: 67.6%, Disk: 59.6%
+2026-09-15 19:55:14,056 [INFO] [catacombs] Metrics received -> CPU: 5.4%, Memory: 67.6%, Disk: 59.6%
+2026-09-15 19:55:15,206 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:50586
+2026-09-15 19:55:16,057 [INFO] [catacombs] Metrics received -> CPU: 20.0%, Memory: 68.1%, Disk: 59.6%
+2026-09-15 19:55:16,206 [INFO] [catacombs] Metrics received -> CPU: 18.4%, Memory: 68.1%, Disk: 59.6%
+2026-09-15 19:55:18,059 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 68.2%, Disk: 59.6%
+2026-09-15 19:55:18,208 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 68.2%, Disk: 59.6%
+2026-09-15 19:55:20,060 [INFO] [catacombs] Metrics received -> CPU: 4.6%, Memory: 68.1%, Disk: 59.6%
+2026-09-15 19:55:20,209 [INFO] [catacombs] Metrics received -> CPU: 9.6%, Memory: 68.0%, Disk: 59.6%
+2026-09-15 19:55:20,976 [ERROR] Failed to communicate with client ipv4:192.168.18.4:50586: 
+2026-09-15 19:55:20,976 [ERROR] Exception iterating responses: 'MetricResponse' object is not an iterator
+Traceback (most recent call last):
+  File "/nix/store/bmnx9qxh4301jgybasc83xflnnm312d2-python3-3.13.12-env/lib/python3.13/site-packages/grpc/_server.py", line 652, in _take_response_from_response_iterator
+    return next(response_iterator), True
+           ~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'MetricResponse' object is not an iterator
+2026-09-15 19:55:22,062 [INFO] [catacombs] Metrics received -> CPU: 6.7%, Memory: 67.7%, Disk: 59.6%
+2026-09-15 19:55:24,063 [INFO] [catacombs] Metrics received -> CPU: 6.4%, Memory: 67.7%, Disk: 59.6%
+2026-09-15 19:55:26,065 [INFO] [catacombs] Metrics received -> CPU: 14.7%, Memory: 67.5%, Disk: 59.6%
+2026-09-15 19:55:28,067 [INFO] [catacombs] Metrics received -> CPU: 13.3%, Memory: 67.5%, Disk: 59.6%
+2026-09-15 19:55:30,069 [INFO] [catacombs] Metrics received -> CPU: 13.9%, Memory: 67.6%, Disk: 59.6%
+2026-09-15 19:55:32,071 [INFO] [catacombs] Metrics received -> CPU: 8.1%, Memory: 67.3%, Disk: 59.6%
+2026-09-15 19:55:34,073 [INFO] [catacombs] Metrics received -> CPU: 7.9%, Memory: 67.2%, Disk: 59.6%
+2026-09-15 19:55:36,073 [INFO] [catacombs] Metrics received -> CPU: 21.9%, Memory: 67.3%, Disk: 59.6%
+2026-09-15 19:55:38,075 [INFO] [catacombs] Metrics received -> CPU: 15.9%, Memory: 68.4%, Disk: 59.6%
+2026-09-15 19:55:40,076 [INFO] [catacombs] Metrics received -> CPU: 5.3%, Memory: 68.4%, Disk: 59.6%
+2026-09-15 19:55:42,078 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 68.5%, Disk: 59.6%
+2026-09-15 19:55:44,080 [INFO] [catacombs] Metrics received -> CPU: 10.6%, Memory: 68.3%, Disk: 59.6%
+2026-09-15 19:55:46,081 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 68.3%, Disk: 59.6%
+2026-09-15 19:55:48,082 [INFO] [catacombs] Metrics received -> CPU: 12.5%, Memory: 67.8%, Disk: 59.6%
+2026-09-15 19:55:50,084 [INFO] [catacombs] Metrics received -> CPU: 4.8%, Memory: 68.5%, Disk: 59.6%
+2026-09-15 19:55:52,085 [INFO] [catacombs] Metrics received -> CPU: 8.4%, Memory: 68.5%, Disk: 59.6%
+2026-09-15 19:55:54,087 [INFO] [catacombs] Metrics received -> CPU: 4.9%, Memory: 68.5%, Disk: 59.6%
+2026-09-15 19:55:56,089 [INFO] [catacombs] Metrics received -> CPU: 9.9%, Memory: 68.5%, Disk: 59.6%
+2026-09-15 19:55:58,091 [INFO] [catacombs] Metrics received -> CPU: 15.4%, Memory: 68.4%, Disk: 59.6%
+2026-09-15 19:56:00,092 [INFO] [catacombs] Metrics received -> CPU: 31.5%, Memory: 70.0%, Disk: 59.6%
+2026-09-15 19:56:02,094 [INFO] [catacombs] Metrics received -> CPU: 16.6%, Memory: 69.3%, Disk: 59.6%
+2026-09-15 19:56:04,094 [INFO] [catacombs] Metrics received -> CPU: 22.1%, Memory: 70.0%, Disk: 59.6%
+2026-09-15 19:56:06,095 [INFO] [catacombs] Metrics received -> CPU: 25.1%, Memory: 75.3%, Disk: 59.6%
+2026-09-15 19:56:08,096 [INFO] [catacombs] Metrics received -> CPU: 19.3%, Memory: 75.9%, Disk: 59.6%
+2026-09-15 19:56:10,099 [INFO] [catacombs] Metrics received -> CPU: 26.8%, Memory: 70.5%, Disk: 59.6%
+2026-09-15 19:56:12,100 [INFO] [catacombs] Metrics received -> CPU: 31.9%, Memory: 70.8%, Disk: 59.6%
+2026-09-15 19:56:14,100 [INFO] [catacombs] Metrics received -> CPU: 26.0%, Memory: 71.5%, Disk: 59.6%
+2026-09-15 19:56:16,101 [INFO] [catacombs] Metrics received -> CPU: 43.7%, Memory: 71.3%, Disk: 59.6%
+2026-09-15 19:56:18,103 [INFO] [catacombs] Metrics received -> CPU: 14.9%, Memory: 40.9%, Disk: 59.6%
+2026-09-15 19:56:20,103 [INFO] [catacombs] Metrics received -> CPU: 16.8%, Memory: 37.3%, Disk: 59.5%
+2026-09-15 19:56:22,104 [INFO] [catacombs] Metrics received -> CPU: 15.3%, Memory: 32.3%, Disk: 59.5%
+2026-09-15 19:56:24,105 [INFO] [catacombs] Metrics received -> CPU: 17.5%, Memory: 32.4%, Disk: 59.5%
+2026-09-15 19:56:26,106 [INFO] [catacombs] Metrics received -> CPU: 17.2%, Memory: 33.8%, Disk: 59.5%
+2026-09-15 19:56:28,107 [INFO] [catacombs] Metrics received -> CPU: 18.7%, Memory: 36.0%, Disk: 59.5%
+2026-09-15 19:56:30,108 [INFO] [catacombs] Metrics received -> CPU: 20.1%, Memory: 37.9%, Disk: 59.5%
+2026-09-15 19:56:32,108 [INFO] [catacombs] Metrics received -> CPU: 18.7%, Memory: 38.4%, Disk: 59.5%
+2026-09-15 19:56:34,109 [INFO] [catacombs] Metrics received -> CPU: 18.4%, Memory: 39.2%, Disk: 59.5%
+2026-09-15 19:56:36,111 [INFO] [catacombs] Metrics received -> CPU: 5.3%, Memory: 39.3%, Disk: 59.5%
+2026-09-15 19:56:38,113 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 39.2%, Disk: 59.5%
+2026-09-15 19:56:40,114 [INFO] [catacombs] Metrics received -> CPU: 22.8%, Memory: 40.5%, Disk: 59.5%
+2026-09-15 19:56:42,114 [INFO] [catacombs] Metrics received -> CPU: 10.0%, Memory: 40.6%, Disk: 59.5%
+2026-09-15 19:56:44,116 [INFO] [catacombs] Metrics received -> CPU: 15.7%, Memory: 40.5%, Disk: 59.5%
+2026-09-15 19:56:46,118 [INFO] [catacombs] Metrics received -> CPU: 8.5%, Memory: 40.4%, Disk: 59.5%
+2026-09-15 19:56:48,119 [INFO] [catacombs] Metrics received -> CPU: 10.6%, Memory: 40.4%, Disk: 59.5%
+2026-09-15 19:56:50,120 [INFO] [catacombs] Metrics received -> CPU: 7.5%, Memory: 40.3%, Disk: 59.5%
+2026-09-15 19:56:52,122 [INFO] [catacombs] Metrics received -> CPU: 10.1%, Memory: 40.2%, Disk: 59.5%
+2026-09-15 19:56:54,125 [INFO] [catacombs] Metrics received -> CPU: 12.5%, Memory: 40.1%, Disk: 59.5%
+2026-09-15 19:56:56,127 [INFO] [catacombs] Metrics received -> CPU: 11.4%, Memory: 40.1%, Disk: 59.5%
+2026-09-15 19:56:58,129 [INFO] [catacombs] Metrics received -> CPU: 11.7%, Memory: 40.1%, Disk: 59.5%
+2026-09-15 19:57:00,131 [INFO] [catacombs] Metrics received -> CPU: 3.8%, Memory: 40.1%, Disk: 59.5%
+2026-09-15 19:57:02,132 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 40.1%, Disk: 59.5%
+2026-09-15 19:57:04,134 [INFO] [catacombs] Metrics received -> CPU: 7.7%, Memory: 40.0%, Disk: 59.5%
+2026-09-15 19:57:06,136 [INFO] [catacombs] Metrics received -> CPU: 9.1%, Memory: 40.0%, Disk: 59.5%
+2026-09-15 19:57:08,137 [INFO] [catacombs] Metrics received -> CPU: 14.2%, Memory: 40.0%, Disk: 59.5%
+2026-09-15 19:57:10,138 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 40.0%, Disk: 59.5%
+2026-09-15 19:57:12,140 [INFO] [catacombs] Metrics received -> CPU: 12.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:14,142 [INFO] [catacombs] Metrics received -> CPU: 5.2%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:57:16,144 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:18,146 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:20,148 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:22,150 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:24,151 [INFO] [catacombs] Metrics received -> CPU: 6.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:26,152 [INFO] [catacombs] Metrics received -> CPU: 18.9%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:28,154 [INFO] [catacombs] Metrics received -> CPU: 6.0%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:30,157 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:32,159 [INFO] [catacombs] Metrics received -> CPU: 5.4%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:34,160 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:36,162 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:38,164 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:57:40,166 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:42,168 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:44,170 [INFO] [catacombs] Metrics received -> CPU: 3.8%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:46,170 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:57:48,172 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:57:50,174 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:52,176 [INFO] [catacombs] Metrics received -> CPU: 6.2%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:54,177 [INFO] [catacombs] Metrics received -> CPU: 11.0%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:56,179 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:57:58,181 [INFO] [catacombs] Metrics received -> CPU: 6.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:00,183 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:02,185 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:04,187 [INFO] [catacombs] Metrics received -> CPU: 8.3%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:06,189 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:08,191 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:10,192 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:12,194 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:14,196 [INFO] [catacombs] Metrics received -> CPU: 11.2%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:16,198 [INFO] [catacombs] Metrics received -> CPU: 7.5%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:18,200 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:20,202 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:22,204 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:24,205 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:26,207 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:28,209 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:30,211 [INFO] [catacombs] Metrics received -> CPU: 4.3%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:32,212 [INFO] [catacombs] Metrics received -> CPU: 3.6%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:34,214 [INFO] [catacombs] Metrics received -> CPU: 5.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:36,216 [INFO] [catacombs] Metrics received -> CPU: 6.2%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:38,218 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:58:40,220 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:58:42,222 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:58:44,224 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:58:46,225 [INFO] [catacombs] Metrics received -> CPU: 15.8%, Memory: 40.7%, Disk: 59.5%
+2026-09-15 19:58:48,227 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:50,228 [INFO] [catacombs] Metrics received -> CPU: 3.9%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:52,229 [INFO] [catacombs] Metrics received -> CPU: 9.7%, Memory: 40.9%, Disk: 59.5%
+2026-09-15 19:58:54,231 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:56,233 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:58:58,235 [INFO] [catacombs] Metrics received -> CPU: 8.3%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:59:00,236 [INFO] [catacombs] Metrics received -> CPU: 13.8%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:59:02,237 [INFO] [catacombs] Metrics received -> CPU: 19.8%, Memory: 40.8%, Disk: 59.5%
+2026-09-15 19:59:04,237 [INFO] [catacombs] Metrics received -> CPU: 17.6%, Memory: 41.4%, Disk: 59.5%
+2026-09-15 19:59:06,238 [INFO] [catacombs] Metrics received -> CPU: 18.4%, Memory: 42.5%, Disk: 59.5%
+2026-09-15 19:59:08,240 [INFO] [catacombs] Metrics received -> CPU: 15.1%, Memory: 44.7%, Disk: 59.5%
+2026-09-15 19:59:10,242 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 44.7%, Disk: 59.5%
+2026-09-15 19:59:12,243 [INFO] [catacombs] Metrics received -> CPU: 13.7%, Memory: 44.7%, Disk: 59.5%
+2026-09-15 19:59:14,245 [INFO] [catacombs] Metrics received -> CPU: 4.8%, Memory: 44.7%, Disk: 59.5%
+2026-09-15 19:59:16,246 [INFO] [catacombs] Metrics received -> CPU: 12.6%, Memory: 44.6%, Disk: 59.5%
+2026-09-15 19:59:18,247 [INFO] [catacombs] Metrics received -> CPU: 12.6%, Memory: 45.5%, Disk: 59.5%
+2026-09-15 19:59:20,249 [INFO] [catacombs] Metrics received -> CPU: 13.1%, Memory: 46.2%, Disk: 59.5%
+2026-09-15 19:59:22,250 [INFO] [catacombs] Metrics received -> CPU: 10.7%, Memory: 46.4%, Disk: 59.5%
+2026-09-15 19:59:24,251 [INFO] [catacombs] Metrics received -> CPU: 16.9%, Memory: 46.4%, Disk: 59.5%
+2026-09-15 19:59:26,253 [INFO] [catacombs] Metrics received -> CPU: 10.3%, Memory: 46.6%, Disk: 59.5%
+2026-09-15 19:59:28,255 [INFO] [catacombs] Metrics received -> CPU: 9.3%, Memory: 46.6%, Disk: 59.5%
+2026-09-15 19:59:30,255 [INFO] [catacombs] Metrics received -> CPU: 10.4%, Memory: 46.6%, Disk: 59.5%
+2026-09-15 19:59:32,256 [INFO] [catacombs] Metrics received -> CPU: 7.6%, Memory: 47.3%, Disk: 59.5%
+2026-09-15 19:59:34,258 [INFO] [catacombs] Metrics received -> CPU: 9.6%, Memory: 47.3%, Disk: 59.5%
+2026-09-15 19:59:36,260 [INFO] [catacombs] Metrics received -> CPU: 6.4%, Memory: 47.2%, Disk: 59.5%
+2026-09-15 19:59:38,262 [INFO] [catacombs] Metrics received -> CPU: 5.8%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:40,263 [INFO] [catacombs] Metrics received -> CPU: 8.4%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:42,265 [INFO] [catacombs] Metrics received -> CPU: 6.8%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:44,267 [INFO] [catacombs] Metrics received -> CPU: 7.5%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:46,267 [INFO] [catacombs] Metrics received -> CPU: 8.7%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:48,268 [INFO] [catacombs] Metrics received -> CPU: 11.6%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:50,269 [INFO] [catacombs] Metrics received -> CPU: 17.8%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:52,270 [INFO] [catacombs] Metrics received -> CPU: 16.7%, Memory: 47.0%, Disk: 59.5%
+2026-09-15 19:59:54,271 [INFO] [catacombs] Metrics received -> CPU: 16.2%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:56,271 [INFO] [catacombs] Metrics received -> CPU: 10.1%, Memory: 47.1%, Disk: 59.5%
+2026-09-15 19:59:58,272 [INFO] [catacombs] Metrics received -> CPU: 13.1%, Memory: 47.2%, Disk: 59.5%
+2026-09-15 20:00:00,274 [INFO] [catacombs] Metrics received -> CPU: 9.9%, Memory: 47.2%, Disk: 59.5%
+2026-09-15 20:00:02,275 [INFO] [catacombs] Metrics received -> CPU: 10.9%, Memory: 47.4%, Disk: 59.5%
+2026-09-15 20:00:04,276 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:06,278 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:08,280 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:10,282 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.7%, Disk: 59.5%
+2026-09-15 20:00:12,284 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.7%, Disk: 59.5%
+2026-09-15 20:00:14,285 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:16,287 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:18,289 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:20,290 [INFO] [catacombs] Metrics received -> CPU: 2.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:22,291 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:24,293 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:26,295 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:28,297 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:30,299 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:32,300 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:34,302 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:36,304 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:38,305 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:40,307 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:42,309 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:44,311 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:46,312 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:48,314 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:50,316 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:00:52,318 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:54,320 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:56,322 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:00:58,323 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:00,324 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:02,325 [INFO] [catacombs] Metrics received -> CPU: 3.4%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:04,327 [INFO] [catacombs] Metrics received -> CPU: 12.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:06,328 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:08,330 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:01:10,332 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:12,334 [INFO] [catacombs] Metrics received -> CPU: 5.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:14,335 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:16,337 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:18,338 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:20,340 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:01:22,342 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:24,344 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:26,345 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:28,347 [INFO] [catacombs] Metrics received -> CPU: 2.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:30,349 [INFO] [catacombs] Metrics received -> CPU: 2.9%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:32,350 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:34,352 [INFO] [catacombs] Metrics received -> CPU: 5.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:36,354 [INFO] [catacombs] Metrics received -> CPU: 5.5%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:01:38,355 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:40,357 [INFO] [catacombs] Metrics received -> CPU: 6.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:01:42,359 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:01:44,360 [INFO] [catacombs] Metrics received -> CPU: 5.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:01:46,362 [INFO] [catacombs] Metrics received -> CPU: 3.9%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:48,363 [INFO] [catacombs] Metrics received -> CPU: 5.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:50,365 [INFO] [catacombs] Metrics received -> CPU: 4.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:52,367 [INFO] [catacombs] Metrics received -> CPU: 5.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:01:54,368 [INFO] [catacombs] Metrics received -> CPU: 9.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:01:56,369 [INFO] [catacombs] Metrics received -> CPU: 9.5%, Memory: 48.4%, Disk: 59.5%
+2026-09-15 20:01:58,370 [INFO] [catacombs] Metrics received -> CPU: 11.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:00,372 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:02,373 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:04,375 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:06,377 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:08,379 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:10,381 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:12,382 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:14,384 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:16,386 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:18,388 [INFO] [catacombs] Metrics received -> CPU: 3.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:20,389 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:22,391 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:24,393 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:26,395 [INFO] [catacombs] Metrics received -> CPU: 2.9%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:28,397 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:30,397 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:32,398 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:34,400 [INFO] [catacombs] Metrics received -> CPU: 12.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:36,402 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:38,404 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:40,406 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:02:42,407 [INFO] [catacombs] Metrics received -> CPU: 11.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:44,407 [INFO] [catacombs] Metrics received -> CPU: 18.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:46,409 [INFO] [catacombs] Metrics received -> CPU: 8.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:48,411 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:50,413 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:52,415 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:54,417 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:56,418 [INFO] [catacombs] Metrics received -> CPU: 4.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:02:58,420 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:03:00,422 [INFO] [catacombs] Metrics received -> CPU: 12.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:02,423 [INFO] [catacombs] Metrics received -> CPU: 15.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:04,425 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:06,427 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:08,429 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:10,430 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:12,432 [INFO] [catacombs] Metrics received -> CPU: 2.2%, Memory: 48.7%, Disk: 59.5%
+2026-09-15 20:03:14,434 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:16,436 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:18,438 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:20,439 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:22,441 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:24,443 [INFO] [catacombs] Metrics received -> CPU: 2.9%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:26,445 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:28,447 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:30,449 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:32,451 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:34,453 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:36,455 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:38,457 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:40,459 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:42,461 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:44,463 [INFO] [catacombs] Metrics received -> CPU: 2.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:46,465 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:48,467 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:03:50,469 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:52,471 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:54,473 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:56,475 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:03:58,477 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:00,479 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:02,480 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:04,482 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:06,484 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:08,486 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:10,487 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:12,489 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:14,491 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:16,493 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:18,495 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:20,497 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:22,499 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:24,500 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:26,502 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:04:28,504 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:30,506 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:32,507 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:34,509 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:36,510 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:38,512 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:40,514 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:42,516 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:44,518 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:46,520 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:48,521 [INFO] [catacombs] Metrics received -> CPU: 2.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:50,523 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:52,525 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:54,526 [INFO] [catacombs] Metrics received -> CPU: 3.4%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:56,528 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:04:58,529 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:00,531 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:02,534 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:04,535 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:06,537 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:08,539 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:10,541 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:12,542 [INFO] [catacombs] Metrics received -> CPU: 3.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:14,544 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:16,546 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:18,548 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:20,550 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:22,551 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:24,553 [INFO] [catacombs] Metrics received -> CPU: 2.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:26,555 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:28,557 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:30,559 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:32,561 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:34,563 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:36,564 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:38,566 [INFO] [catacombs] Metrics received -> CPU: 7.3%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:40,568 [INFO] [catacombs] Metrics received -> CPU: 5.4%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:42,570 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:44,572 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:46,574 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:48,575 [INFO] [catacombs] Metrics received -> CPU: 15.1%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:50,576 [INFO] [catacombs] Metrics received -> CPU: 6.9%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:05:52,578 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:05:54,580 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:05:56,582 [INFO] [catacombs] Metrics received -> CPU: 6.6%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:05:58,584 [INFO] [catacombs] Metrics received -> CPU: 4.3%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:06:00,585 [INFO] [catacombs] Metrics received -> CPU: 15.5%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:06:02,586 [INFO] [catacombs] Metrics received -> CPU: 15.6%, Memory: 48.5%, Disk: 59.5%
+2026-09-15 20:06:04,587 [INFO] [catacombs] Metrics received -> CPU: 15.1%, Memory: 48.6%, Disk: 59.5%
+2026-09-15 20:06:06,588 [INFO] [catacombs] Metrics received -> CPU: 18.4%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:08,590 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 48.9%, Disk: 59.5%
+2026-09-15 20:06:10,591 [INFO] [catacombs] Metrics received -> CPU: 6.0%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:12,592 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 48.9%, Disk: 59.5%
+2026-09-15 20:06:14,594 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:16,596 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:18,597 [INFO] [catacombs] Metrics received -> CPU: 5.2%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:20,599 [INFO] [catacombs] Metrics received -> CPU: 5.3%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:22,600 [INFO] [catacombs] Metrics received -> CPU: 4.8%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:24,602 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:26,604 [INFO] [catacombs] Metrics received -> CPU: 10.4%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:28,605 [INFO] [catacombs] Metrics received -> CPU: 5.8%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:30,607 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:32,608 [INFO] [catacombs] Metrics received -> CPU: 9.2%, Memory: 48.8%, Disk: 59.5%
+2026-09-15 20:06:34,609 [INFO] [catacombs] Metrics received -> CPU: 6.7%, Memory: 48.9%, Disk: 59.5%
+2026-09-15 20:06:36,610 [INFO] [catacombs] Metrics received -> CPU: 8.9%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:38,612 [INFO] [catacombs] Metrics received -> CPU: 6.0%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:06:40,613 [INFO] [catacombs] Metrics received -> CPU: 6.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:42,615 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:44,617 [INFO] [catacombs] Metrics received -> CPU: 8.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:46,619 [INFO] [catacombs] Metrics received -> CPU: 4.1%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:48,620 [INFO] [catacombs] Metrics received -> CPU: 5.2%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:50,621 [INFO] [catacombs] Metrics received -> CPU: 5.5%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:52,623 [INFO] [catacombs] Metrics received -> CPU: 5.1%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:54,625 [INFO] [catacombs] Metrics received -> CPU: 5.9%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:56,626 [INFO] [catacombs] Metrics received -> CPU: 5.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:06:58,628 [INFO] [catacombs] Metrics received -> CPU: 3.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:00,629 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:02,631 [INFO] [catacombs] Metrics received -> CPU: 4.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:04,632 [INFO] [catacombs] Metrics received -> CPU: 5.7%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:06,634 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:08,635 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:10,636 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:12,637 [INFO] [catacombs] Metrics received -> CPU: 5.2%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:14,638 [INFO] [catacombs] Metrics received -> CPU: 4.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:16,639 [INFO] [catacombs] Metrics received -> CPU: 5.5%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:18,641 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:20,641 [INFO] [catacombs] Metrics received -> CPU: 5.4%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:22,643 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 49.0%, Disk: 59.5%
+2026-09-15 20:07:24,645 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:26,646 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:28,649 [INFO] [catacombs] Metrics received -> CPU: 3.3%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:30,649 [INFO] [catacombs] Metrics received -> CPU: 8.7%, Memory: 49.6%, Disk: 59.5%
+2026-09-15 20:07:32,650 [INFO] [catacombs] Metrics received -> CPU: 13.8%, Memory: 49.3%, Disk: 59.5%
+2026-09-15 20:07:34,652 [INFO] [catacombs] Metrics received -> CPU: 9.1%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:36,653 [INFO] [catacombs] Metrics received -> CPU: 18.2%, Memory: 49.3%, Disk: 59.5%
+2026-09-15 20:07:38,655 [INFO] [catacombs] Metrics received -> CPU: 4.0%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:40,656 [INFO] [catacombs] Metrics received -> CPU: 5.3%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:42,658 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:44,659 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:46,660 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:07:48,662 [INFO] [catacombs] Metrics received -> CPU: 3.7%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:50,663 [INFO] [catacombs] Metrics received -> CPU: 5.3%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:52,665 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:54,667 [INFO] [catacombs] Metrics received -> CPU: 4.3%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:56,669 [INFO] [catacombs] Metrics received -> CPU: 4.3%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:07:58,671 [INFO] [catacombs] Metrics received -> CPU: 4.1%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:00,672 [INFO] [catacombs] Metrics received -> CPU: 5.5%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:02,674 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:04,675 [INFO] [catacombs] Metrics received -> CPU: 5.7%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:06,677 [INFO] [catacombs] Metrics received -> CPU: 5.7%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:08,679 [INFO] [catacombs] Metrics received -> CPU: 2.8%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:10,680 [INFO] [catacombs] Metrics received -> CPU: 5.5%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:08:12,682 [INFO] [catacombs] Metrics received -> CPU: 4.2%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:14,683 [INFO] [catacombs] Metrics received -> CPU: 12.7%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:16,685 [INFO] [catacombs] Metrics received -> CPU: 8.0%, Memory: 49.2%, Disk: 59.5%
+2026-09-15 20:08:18,687 [INFO] [catacombs] Metrics received -> CPU: 5.5%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:08:20,688 [INFO] [catacombs] Metrics received -> CPU: 11.8%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:08:22,688 [INFO] [catacombs] Metrics received -> CPU: 11.1%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:08:24,690 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:08:26,691 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 49.0%, Disk: 59.5%
+2026-09-15 20:08:28,693 [INFO] [catacombs] Metrics received -> CPU: 9.4%, Memory: 49.1%, Disk: 59.5%
+2026-09-15 20:08:28,886 [ERROR] Failed to communicate with client ipv4:192.168.18.4:50438: 
+2026-09-15 20:08:28,887 [ERROR] Exception iterating responses: 'MetricResponse' object is not an iterator
+Traceback (most recent call last):
+  File "/nix/store/bmnx9qxh4301jgybasc83xflnnm312d2-python3-3.13.12-env/lib/python3.13/site-packages/grpc/_server.py", line 652, in _take_response_from_response_iterator
+    return next(response_iterator), True
+           ~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'MetricResponse' object is not an iterator
+2026-09-15 20:09:40,352 [INFO] gRPC server is up and listening on port 35491
+2026-09-15 20:10:35,183 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.46:56284
+2026-09-15 20:10:36,185 [INFO] [mint-VirtualBox] Metrics received -> CPU: 2.1%, Memory: 25.3%, Disk: 58.1%
+2026-09-15 20:10:38,191 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.3%, Disk: 58.1%
+2026-09-15 20:10:40,207 [INFO] [mint-VirtualBox] Metrics received -> CPU: 16.3%, Memory: 26.6%, Disk: 58.1%
+2026-09-15 20:10:42,219 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.2%, Disk: 58.1%
+2026-09-15 20:10:44,222 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:10:46,225 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:10:46,380 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:57454
+2026-09-15 20:10:47,381 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 50.6%, Disk: 59.5%
+2026-09-15 20:10:48,228 [INFO] [mint-VirtualBox] Metrics received -> CPU: 1.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:10:49,383 [INFO] [catacombs] Metrics received -> CPU: 5.8%, Memory: 50.6%, Disk: 59.5%
+2026-09-15 20:10:50,243 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:10:51,385 [INFO] [catacombs] Metrics received -> CPU: 10.3%, Memory: 50.6%, Disk: 59.5%
+2026-09-15 20:10:52,253 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:10:53,387 [INFO] [catacombs] Metrics received -> CPU: 8.2%, Memory: 50.6%, Disk: 59.5%
+2026-09-15 20:10:54,257 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:10:55,388 [INFO] [catacombs] Metrics received -> CPU: 6.6%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:10:56,260 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:10:57,389 [INFO] [catacombs] Metrics received -> CPU: 11.3%, Memory: 50.6%, Disk: 59.5%
+2026-09-15 20:10:58,264 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:10:59,391 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:11:00,267 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:01,393 [INFO] [catacombs] Metrics received -> CPU: 8.8%, Memory: 50.6%, Disk: 59.5%
+2026-09-15 20:11:02,268 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:03,395 [INFO] [catacombs] Metrics received -> CPU: 5.0%, Memory: 50.6%, Disk: 59.5%
+2026-09-15 20:11:04,271 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:04,542 [INFO] New Admin dashboard connected from: ipv6:%5B::1%5D:48388
+2026-09-15 20:11:05,396 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:11:06,274 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:07,398 [INFO] [catacombs] Metrics received -> CPU: 4.4%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:11:08,277 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:09,400 [INFO] [catacombs] Metrics received -> CPU: 3.4%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:11:10,280 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:11,402 [INFO] [catacombs] Metrics received -> CPU: 4.3%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:11:12,283 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:13,404 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:11:14,285 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:15,405 [INFO] [catacombs] Metrics received -> CPU: 6.1%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:11:16,289 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:17,407 [INFO] [catacombs] Metrics received -> CPU: 9.5%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:11:17,503 [ERROR] Failed to communicate with client ipv4:192.168.18.4:57454: 
+2026-09-15 20:11:17,504 [ERROR] Exception iterating responses: 'MetricResponse' object is not an iterator
+Traceback (most recent call last):
+  File "/nix/store/bmnx9qxh4301jgybasc83xflnnm312d2-python3-3.13.12-env/lib/python3.13/site-packages/grpc/_server.py", line 652, in _take_response_from_response_iterator
+    return next(response_iterator), True
+           ~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'MetricResponse' object is not an iterator
+2026-09-15 20:11:18,292 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:20,295 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:22,298 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:24,301 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:26,304 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:28,308 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:30,311 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:32,313 [INFO] [mint-VirtualBox] Metrics received -> CPU: 3.3%, Memory: 26.1%, Disk: 58.1%
+2026-09-15 20:11:33,223 [ERROR] Failed to communicate with client ipv4:192.168.18.46:56284: 
+2026-09-15 20:11:33,223 [ERROR] Exception iterating responses: 'MetricResponse' object is not an iterator
+Traceback (most recent call last):
+  File "/nix/store/bmnx9qxh4301jgybasc83xflnnm312d2-python3-3.13.12-env/lib/python3.13/site-packages/grpc/_server.py", line 652, in _take_response_from_response_iterator
+    return next(response_iterator), True
+           ~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'MetricResponse' object is not an iterator
+2026-09-15 20:11:42,602 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:49378
+2026-09-15 20:11:43,602 [INFO] [catacombs] Metrics received -> CPU: 6.1%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:11:45,603 [INFO] [catacombs] Metrics received -> CPU: 4.8%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:11:47,605 [INFO] [catacombs] Metrics received -> CPU: 10.4%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:11:49,606 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:11:50,575 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.46:32854
+2026-09-15 20:11:51,577 [INFO] [mint-VirtualBox] Metrics received -> CPU: 1.1%, Memory: 25.4%, Disk: 58.1%
+2026-09-15 20:11:51,607 [INFO] [catacombs] Metrics received -> CPU: 6.2%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:11:53,582 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.4%, Disk: 58.1%
+2026-09-15 20:11:53,608 [INFO] [catacombs] Metrics received -> CPU: 4.6%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:11:55,585 [INFO] [mint-VirtualBox] Metrics received -> CPU: 1.0%, Memory: 25.4%, Disk: 58.1%
+2026-09-15 20:11:55,610 [INFO] [catacombs] Metrics received -> CPU: 5.7%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:11:56,578 [INFO] Admin dashboard disconnected: ipv6:%5B::1%5D:48388
+2026-09-15 20:11:57,588 [INFO] [mint-VirtualBox] Metrics received -> CPU: 3.4%, Memory: 25.4%, Disk: 58.1%
+2026-09-15 20:11:57,612 [INFO] [catacombs] Metrics received -> CPU: 10.8%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:11:58,148 [ERROR] Failed to communicate with client ipv4:192.168.18.46:32854: 
+2026-09-15 20:11:58,148 [ERROR] Exception iterating responses: 'MetricResponse' object is not an iterator
+Traceback (most recent call last):
+  File "/nix/store/bmnx9qxh4301jgybasc83xflnnm312d2-python3-3.13.12-env/lib/python3.13/site-packages/grpc/_server.py", line 652, in _take_response_from_response_iterator
+    return next(response_iterator), True
+           ~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'MetricResponse' object is not an iterator
+2026-09-15 20:11:59,614 [INFO] [catacombs] Metrics received -> CPU: 5.3%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:11:59,945 [ERROR] Failed to communicate with client ipv4:192.168.18.4:49378: 
+2026-09-15 20:11:59,945 [ERROR] Exception iterating responses: 'MetricResponse' object is not an iterator
+Traceback (most recent call last):
+  File "/nix/store/bmnx9qxh4301jgybasc83xflnnm312d2-python3-3.13.12-env/lib/python3.13/site-packages/grpc/_server.py", line 652, in _take_response_from_response_iterator
+    return next(response_iterator), True
+           ~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'MetricResponse' object is not an iterator
+2026-09-15 20:12:03,710 [INFO] gRPC server is up and listening on port 35491
+2026-09-15 20:12:05,549 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.4:43394
+2026-09-15 20:12:06,550 [INFO] [catacombs] Metrics received -> CPU: 4.8%, Memory: 50.6%, Disk: 59.5%
+2026-09-15 20:12:08,302 [INFO] New Admin dashboard connected from: ipv6:%5B::1%5D:52604
+2026-09-15 20:12:08,552 [INFO] [catacombs] Metrics received -> CPU: 4.5%, Memory: 50.9%, Disk: 59.5%
+2026-09-15 20:12:10,554 [INFO] [catacombs] Metrics received -> CPU: 8.2%, Memory: 50.9%, Disk: 59.5%
+2026-09-15 20:12:12,556 [INFO] [catacombs] Metrics received -> CPU: 8.5%, Memory: 50.9%, Disk: 59.5%
+2026-09-15 20:12:14,162 [INFO] Connection accepted from gRPC client: ipv4:192.168.18.46:38680
+2026-09-15 20:12:14,557 [INFO] [catacombs] Metrics received -> CPU: 5.2%, Memory: 50.9%, Disk: 59.5%
+2026-09-15 20:12:15,163 [INFO] [mint-VirtualBox] Metrics received -> CPU: 3.2%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:16,558 [INFO] [catacombs] Metrics received -> CPU: 4.4%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:12:17,167 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:18,560 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:12:19,170 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:20,562 [INFO] [catacombs] Metrics received -> CPU: 3.4%, Memory: 50.8%, Disk: 59.5%
+2026-09-15 20:12:21,174 [INFO] [mint-VirtualBox] Metrics received -> CPU: 1.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:22,564 [INFO] [catacombs] Metrics received -> CPU: 3.6%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:12:23,177 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:24,565 [INFO] [catacombs] Metrics received -> CPU: 2.7%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:12:25,180 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:26,567 [INFO] [catacombs] Metrics received -> CPU: 3.5%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:12:27,186 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:28,569 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:12:29,187 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:30,571 [INFO] [catacombs] Metrics received -> CPU: 3.2%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:12:31,190 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:32,573 [INFO] [catacombs] Metrics received -> CPU: 2.5%, Memory: 50.7%, Disk: 59.5%
+2026-09-15 20:12:33,194 [INFO] [mint-VirtualBox] Metrics received -> CPU: 1.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:34,320 [INFO] Admin dashboard disconnected: ipv6:%5B::1%5D:52604
+2026-09-15 20:12:34,575 [INFO] [catacombs] Metrics received -> CPU: 3.6%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:12:35,198 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:36,576 [INFO] [catacombs] Metrics received -> CPU: 4.6%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:12:37,200 [INFO] [mint-VirtualBox] Metrics received -> CPU: 3.3%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:38,577 [INFO] [catacombs] Metrics received -> CPU: 5.5%, Memory: 50.4%, Disk: 59.5%
+2026-09-15 20:12:39,202 [INFO] [mint-VirtualBox] Metrics received -> CPU: 1.1%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:40,580 [INFO] [catacombs] Metrics received -> CPU: 8.7%, Memory: 50.4%, Disk: 59.5%
+2026-09-15 20:12:41,205 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:42,581 [INFO] [catacombs] Metrics received -> CPU: 11.5%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:12:43,209 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:44,583 [INFO] [catacombs] Metrics received -> CPU: 7.2%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:12:45,218 [INFO] [mint-VirtualBox] Metrics received -> CPU: 1.0%, Memory: 25.2%, Disk: 58.1%
+2026-09-15 20:12:46,585 [INFO] [catacombs] Metrics received -> CPU: 9.5%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:12:47,220 [INFO] [mint-VirtualBox] Metrics received -> CPU: 3.9%, Memory: 25.3%, Disk: 58.1%
+2026-09-15 20:12:48,587 [INFO] [catacombs] Metrics received -> CPU: 6.7%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:12:49,223 [INFO] [mint-VirtualBox] Metrics received -> CPU: 7.2%, Memory: 25.3%, Disk: 58.1%
+2026-09-15 20:12:50,588 [INFO] [catacombs] Metrics received -> CPU: 7.6%, Memory: 50.5%, Disk: 59.5%
+2026-09-15 20:12:51,227 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.3%, Disk: 58.1%
+2026-09-15 20:12:52,589 [INFO] [catacombs] Metrics received -> CPU: 3.0%, Memory: 50.4%, Disk: 59.5%
+2026-09-15 20:12:53,228 [INFO] [mint-VirtualBox] Metrics received -> CPU: 0.0%, Memory: 25.3%, Disk: 58.1%
